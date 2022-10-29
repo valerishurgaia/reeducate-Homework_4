@@ -1,0 +1,40 @@
+* {
+  font-family: "Fasthand", cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.mainElement {
+  height: 100vh;
+  overflow: auto;
+}
+
+.paragraph1 {
+  width: max-content;
+}
+
+.spanInParagraph {
+  width: 50%;
+  color: gray;
+}
+
+.boxWrapper {
+  width: 50%;
+  /* height: ; */
+  background-color: green;
+}
+
+.box {
+  width: 250px;
+  height: 250px;
+}
+
+.boxRed {
+  background-color: red;
+}
+
+.boxBlue {
+  background-color: blue;
+}
