@@ -3,7 +3,9 @@
   width: 120px;
   height: 70px;
   background-color: black;
-  margin: 10px;
+  margin: 10px; 
+  display: inline-block;  
+  /* If i write "margin: -2px;" there won't be any space between them...*/
 }
 
 /* Question 2 */
@@ -12,6 +14,8 @@
   color: grey;
   font-size: 30px;
   width: 100px;
+  /* If we still want it to occupy space */ visibility: hidden; 
+  /* If we dont want it to occupy space "display: none;" */
 }
 
 .layoutExamplesWrapper > a {
